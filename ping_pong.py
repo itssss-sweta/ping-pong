@@ -38,11 +38,11 @@ while game_is_on:
 
     if ball.xcor() > 380:
         ball.reset_position()
-        score.l_score()
+        score.left_score()
         
     if ball.xcor() < -380:
         ball.reset_position()
-        score.r_score()
+        score.right_score()
 
 screen.exitonclick()
 
